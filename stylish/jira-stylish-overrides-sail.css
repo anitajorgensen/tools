@@ -1,0 +1,159 @@
+.js-detailview.ghx-issue .ghx-issue-content {
+    padding: 10px 10px 0px 38px;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field-content,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field-content div {
+    display: inline;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field {
+    display: none;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Hotfix"] {
+    display: block;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="GA Blocker"] {
+    display: block;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="RRT"] {
+    display: block;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Home Blocker"] {
+    display: block;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Hotfix"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="GA Blocker"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="RRT"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Home Blocker"] {
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 3px;
+    margin-bottom: 4px;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: In Progress"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Code Review"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: QE Review"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Code Complete"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Done"] {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    border: 2px solid #337DFF;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: In Progress"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Code Review"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: QE Review"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Code Complete"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Done"] > span {
+    padding-right: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: In Progress"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Code Review"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: QE Review"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Code Complete"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Goal for the Day: Done"]:before {
+	content: "\1f945";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 1"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 2"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 3"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 5"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 8"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 13"] {
+	display: inline-block;
+    padding-top: 1px;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 1"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 2"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 3"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 5"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 8"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip="Story Points: 13"] > span {
+    padding-right: 4px
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Hotfix"] {
+    border: 2px solid #a02b37;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="GA Blocker"] {
+    border: 2px solid #a02b37;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="RRT"] {
+    border: 2px solid #a02b37;
+}
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Home Blocker"] {
+    border: 2px solid #a02b37;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field[data-tooltip*="RequiresContextReview"] {
+    background-color: #d8c72b;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field[data-tooltip*="ReadyToWork"] {
+    background-color: #57ed78;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field[data-tooltip="Labels: None"]{
+    color: #050505;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field:not([data-tooltip*="ReadyToWork"]):not([data-tooltip*="RequiresContextReview"]){
+    background-color: #db7264;
+}
+
+.js-detailview.ghx-issue .ghx-end {
+    position: absolute;
+    bottom: 18px;
+}
+.js-detailview.ghx-issue .ghx-days b {
+    background: none;
+}
+.js-detailview.ghx-issue .ghx-days {
+    height: 16px;
+}
+.js-detailview.ghx-issue .ghx-days:before {
+    content: attr(title);
+    font-size: 12px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.js-detailview.ghx-issue.ghx-done .ghx-days {
+    height: 0px;
+}
+.js-detailview.ghx-issue.ghx-days-0 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-1 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-2 .ghx-days {
+    background-color: #82c4be;
+    color: #555;
+}
+.js-detailview.ghx-issue.ghx-days-3 .ghx-days {
+    background-color: #ffde58;
+    color: #555;
+}
+.js-detailview.ghx-issue.ghx-days-4 .ghx-days {
+    background-color: #f28f49;
+    color: #555;
+}
+.js-detailview.ghx-issue.ghx-days-5 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-6 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-7 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-8 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-9 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-10 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-11 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-12 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-13 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-14 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-15 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-16 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-17 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-18 .ghx-days {
+    background-color: #a02b37;
+    color: #ddd;
+}
+.ghx-done .aui-badge {
+    background: green;
+    color: white;
+}
